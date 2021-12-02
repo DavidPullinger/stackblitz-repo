@@ -1,3 +1,3 @@
-# react-xcm4b6
+# stackblitz-repo
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-xcm4b6)
+My little sandbox to play around with [⚡️ Stackblitz](https://stackblitz.com)
