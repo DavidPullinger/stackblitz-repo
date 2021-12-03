@@ -1,17 +1,38 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  padding: 0 20px;
+  padding: 10px 15px;
 }
 /* TEXT */
 a,
 p {
   text-decoration: none;
   color: black;
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(1rem, 1.2vw, 2rem);
+  position: relative;
+}
+a {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 h1 {
-  font-size: clamp(2rem, 4.5vw, 6rem);
+  font-size: clamp(2rem, 3.5vw, 5rem);
 }
 
 nav {
